@@ -1,4 +1,4 @@
-Install python 3.13 and anaconda
+Install python 3.10 anaconda
 
 Create a folder "MyGPT"
 
@@ -6,21 +6,21 @@ Open Anaconda prompt and then run the following commands:
 
 1: Create a virtualenv:
 
-python -m venv cuda
+conda create -n torch110_py310 python=3.10 -y
 
 2: Activate that virtualenv
 
-cuda\Scripts\activate
+activate torch110_py310 
 
 3: Install the required libraries
 
+pip install torch==1.11.0+cu115 -f https://download.pytorch.org/whl/torch_stable.html
+
 pip3 install matplotlib numpy ipykernel jupyter
 
-pip3 install torch --index-url https://download.pytorch.org/whl/cu128
+4: Setup the virtualenv created above as the jupyter kernel with name "MyGPTCuda"
 
-4: Setup the virtualenv created above as the jupyter kernel with name "MyGPT"
-
-python -m ipykernel install --user --name=cuda --display-name "MyGPT"
+python -m ipykernel install --user --name=torch110_py310 --display-name "MyGPTCuda"
 
 5: Start the jupyter notebook
 
