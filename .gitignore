@@ -1,2 +1,4 @@
 /.ipynb_checkpoints
 /myModels
+train.bin
+validation.bin
