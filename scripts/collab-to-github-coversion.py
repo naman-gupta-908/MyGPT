@@ -11,4 +11,4 @@ def clean_notebook(path):
         json.dump(nb, f, indent=2)
     
 # usage
-clean_notebook("myGPT-v3.ipynb")
+clean_notebook("myGPT_v3.ipynb")
