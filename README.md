@@ -40,6 +40,5 @@ small data and model size.)
 - Limited compute
 
 ## How to run
-(Open in Colab badge)
-
-[![Open In Colab]https://colab.research.google.com/drive/1fEi8xNb28_d9-dHeVOcnL6X-q2isMNAQ?authuser=1#scrollTo=Nx_kEEfKwDCv
+Collab Link:
+https://colab.research.google.com/drive/1fEi8xNb28_d9-dHeVOcnL6X-q2isMNAQ?authuser=1#scrollTo=Nx_kEEfKwDCv
